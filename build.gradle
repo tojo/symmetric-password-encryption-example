@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+repositories {
+    maven { url 'http://repo.maven.apache.org/maven2' }
+}
+
+dependencies {
+    compile 'org.springframework.security:spring-security-core:3.2.5.RELEASE'
+    testCompile 'junit:junit:4.11'
+}
